@@ -13,14 +13,15 @@ const rooms = {
         "lookatogre": "The ogre is one ogre"
     },
     "room2": {
-        "description": "If this isn't a description of <strong>room 2</strong>, then we're in trouble"
+        "description": "If this isn't a description of <strong>room 2</strong>, then we're in trouble",
+        "description": "WHOOOO THE <strong>NATURE BOY</strong> IS HERE"
     },
     "other": {
         "start": "Welcome to DemoQuest! Please enter your name to get started!",
         "dontunderstand": "I don't understand!",
         "twirl": "You twirled!",
-        "twirldeath3": "You twirled to fast that the blood rushes to your arms!<br> You lose conciousness and fall down onto a discarded brick, breaking your skull open and killing you instantly. <br>Please type <strong>'restart'</strong> to restart the game.",
-        "brickdeath": "YOU WERE KILLED BY A BRICK!<br>Please type <strong>'restart'</strong> to restart the game.",
+        "twirldeath3": "You twirled so fast that the blood rushes to your arms!<br> You lose conciousness and fall down onto a discarded brick, breaking your skull open and killing you instantly.",
+        "brickdeath": "<strong>YOU WERE KILLED BY A BRICK!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
     }
 
 }
@@ -99,6 +100,7 @@ $(document).ready(function gameStart() {
                     case "lookatogre":
                         $("#game-text").append("<p>" + rooms.room1.lookatogre + "</p>");
                         break;
+                    
 
                     case "twirl":
                         $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
@@ -110,12 +112,18 @@ $(document).ready(function gameStart() {
                         break;
                 }
 
+            } else if (roomnumber === 2) {
+                switch (input) {
+                    case "lookatroom2":
+
+                }
             }
 
             //Twirling counter
             if (twirlcounter === 3) {
                 $("#game-text").append("<p>" + rooms.other.twirldeath3 + "</p>");
-                gamedeath = "twirling";
+                $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                gamedeath = "twirling and bricks";
                 console.log("gamedeath ", gamedeath);
                 twirlcounter = 0;
                 death = true;
@@ -128,25 +136,29 @@ $(document).ready(function gameStart() {
                 console.log("gamedeath ", gamedeath);
                 switch (input) {
                     case "restart":
-                        // console.log("Restarted!");
+                        console.log("-=-=-=-=-=Restart Function=-=-=-=-=-");
+                        $("#game-text").append("<p>" + rooms.other.start + "</p>");
+                        console.log("Restarted!");
                         roomnumber = 255;
-                        // console.log("roomnumber: ", roomnumber);
+                        console.log("roomnumber: ", roomnumber);
                         name = [];
-                        // console.log("name: ", name);
+                        console.log("name: ", name);
                         death = false;
-                        // console.log("death", death);
+                        console.log("death", death);
                         gamedeath = [];
-                        // console.log("gamedeath ", gamedeath);
+                        console.log("gamedeath ", gamedeath);
+                        return;
                         gameStart();
+                        // location.reload();
                         break;
                         // no description of room 0 or a default case is here because adding them in would repeat text already set to room 0
-                }
+                    }
+                    
 
             }
         }
 
     });
-
 
 
 
