@@ -1,21 +1,49 @@
 // descriptions and actions of each room
 const rooms = {
     "room0": {
-        "description": "You are standing in a small <strong>room 0</strong>. The air is stale, and the walls around you are a blank eggshell. with a brickwork ceiling",
-        "lookatroom0": "There is a <strong>window</strong> on one wall, overlooking a small graveyard. On the opposite wall is a <strong>doorway</strong> leading down a dark hallway. In the center of the room, a large <strong>treasure chest</strong> sits, slightly ajar. You can see the shimmering glint of gold within the chest...",
-        "opentreasurechest": "You open the chest, and are met with an abundance of gold... <br>...en teeth, lining the mouth of a hungry mimic. You are not quick enough to escape the maw as it swings down upon you, beheading you with a snap. that'll teach you to be greedy!",
+        "description": "You are standing in <strong>room 0</strong>. You should probably <strong>look at</strong> the room to get a better sense of your surroundings.",
+        "lookatroom0": "The air is stale with dust and hard to beathe in. The walls around you are a blank eggshell with a brickwork ceiling. On one wall there is a <strong>window</strong>, overlooking a small graveyard. The latch is rusty and the wood around it seems warped. On the opposite wall are a line of numbered <strong>doors</strong>. In the center of the room, a large <strong>treasure chest</strong> sits, slightly ajar. There is also an undefinable <strong>presence</strong> in the room with you...",
+        "lookatwindow": "The window is set in a warped wooden frame, covered in cracked white paint. Beyond the murky glass, you can see a graveyard, and the names of the last few adventureres before you...",
+        "openwindow": "You attempt to open the window, but the frame refuses to budge. However, your attempt to force the window open causes a crack to form above the window, trailing up to the ceiling, and breaking the brickwork just enough for one brick to fall and hit you on the head, breaking your skull open and killing you instantly.",
+        "lookatpresence": "The entity in the room with you does not seem to have a definable shape, size, or any determinable features. It may be a product of unknown arcane forces, and definity not something the writers made up because they had nothing else to put in this room. It is not <strong>perceiveable</strong> to the human eye, although you can try to gesture or <strong>wave</strong> at it.",
+        "perceivepresence": "You focus your gaze at the presence, but in doing so you draw it's attention in a very bad way. Whatever gaze it would have, it pierces through your very soul, stopping your heart in an instant and sending you to an eternally cold rest.",
+        "waveatpresence": "You attempt to wave at whatever is before you, but you feel your arm snap completely off it's joint. You barely have time to fall in agony before the mysterious element is upon you, and you feel your body start to fade into the background of oblivion.",
+        "presencedeath": "<strong>YOU WERE KILLED BY AN UNKNOWN PRESENCE!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
+        "lookattreasurechest": "The <strong>treasure chest</strong> is of a dark wroght iron metal, with the only hint of color being the enticing hits of gold you can see underneath the open lid.",
+        "opentreasurechest": "You open the chest, and are met with an abundance of gold... <br>...en teeth, lining the mouth of a hungry mimic. You are stunned by the noxious breath of rusting metal, and you are not quick enough to escape the maw as it swings down upon you, beheading you with a snap. That'll teach you to be greedy!",
         "mimicdeath": "YOU WERE KILLED BY A MIMIC!<br>Please type <strong>'restart'</strong> to restart the game.",
-        "lookatdoorwayroom1": "The doorway leads through a <strong>hall way</strong> into another room."
+        "lookatdoors": "The doors are labeled 1 through 5. <strong>Room 1</strong> is painted green with white flowers, but the colors have long since washed out, and there are traces of flower pollen under the doorway. <strong>Room 2</strong> is made from steel, and you can practically feel the heat coming off the surface. <strong>Room 3</strong> is covered in arcane runes, streaming with multicolored waves of power, ruined slightly by the poster overlaying it, saying, 'You don't have to be crazy to program, but it helps!' You can hear the sound of a ringing bell from <strong>Room 4</strong>, behind the bedazzled and feathered funishings of the door and frame, and there seems to be a commotion from behind <strong>Room 5</strong>'s simple metal door, lableled 'Studio 5' on the front.<br>Which room would you go to? <strong>Keep in mind that you cannot head back.</strong>"
+
     },
     "room1": {
-        "description": "This should be a description of <strong>room 1</strong>.",
-        "lookatroom1": "<strong>Something</strong> should be set here to describe the room. Okay there is an <strong>ogre</strong> here.",
-        "lookatogre": "The ogre is one ogre"
+        "description": "The room is hotter and wetter than the previous, and the walls are rotting away from the constant exposure to moisture.",
+        "lookatroom1": "On one wall, there is a table with a small assortment of <strong>potted plants</strong>. On the other end, a large <strong>cactus</strong> has punctured through the ceiling in its unchecked growth. And before you, a large <strong>flytrap</strong> grows from a patch of dirt from a hole in the floor.",
+        "lookatpottedplants": "There are three potted plants, labeled <strong>1</strong>, <strong>2</strong>, and <strong>3</strong>. You can <strong>smell</strong> their fragrent aromas, but maybe you can take a closer look?",
+        "nospores": "What a lovely smell!",
+        "spores": "Upon smelling the flower, small spores flow through your nostrils and into your lungs, where they immediatly get to work. They suck up the moisture in your body, growing and spreading as a gelatinous mold. You start to gasp, choking out dust, before finally falling over dead, but not before seeing your chest concave inward, revealing a multitude of exotic grasses and sprouts emerging from your flesh, as your body turns into a very personal terrarium. At least you'll be more beautiful as a garden than you were careful as a human being...",
+        "sporesdeath" : "<strong>YOU HAVE DIED FROM SPORES!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
+        "lookatcactus": "",
+        "lookatflytrap": "",
+
+
     },
     "room2": {
         "description": "If this isn't a description of <strong>room 2</strong>, then we're in trouble",
-        "description": "WHOOOO THE <strong>NATURE BOY</strong> IS HERE"
+        "lookatroom2": "<strong>saucy lizard</strong>"
     },
+    "room3": {
+        "description": "If this isn't a description of <strong>room 3</strong>, then we're in trouble",
+        "lookatroom3": "<strong>its mark</strong>"
+    },
+    "room4": {
+        "description": "If this isn't a description of <strong>room 4</strong>, then we're in trouble",
+        "lookatroom4": "WHOOOO THE <strong>NATURE BOY</strong> IS HERE"
+    },
+    "room5": {
+        "description": "If this isn't a description of <strong>room 5</strong>, then we're in trouble",
+        "lookatroom5": "<strong>give us money</strong>"
+    },
+
     "other": {
         "start": "Welcome to DemoQuest! Please enter your name to get started!",
         "dontunderstand": "I don't understand!",
@@ -38,6 +66,9 @@ $(document).ready(function gameStart() {
     let gamedeath = [];
     console.log("gamedeath ", gamedeath);
 
+    let plantspores = Math.floor((Math.random() * 3) + 1);
+    console.log("plant that will kill you: ", plantspores);
+
     $("#game-text").append("<p>" + rooms.other.start + "</p>");
 
     $(document).keypress(function (key) {
@@ -48,6 +79,7 @@ $(document).ready(function gameStart() {
             // roomnumber = 0;
             $("#user-input").val('');
 
+
             if (roomnumber === 255) {
                 switch (input) {
                     default: name = input;
@@ -57,25 +89,74 @@ $(document).ready(function gameStart() {
                 }
 
             } else if (roomnumber === 0) {
-                console.log("roomnumber: ", roomnumber);
+                // console.log("roomnumber: ", roomnumber);
                 switch (input) {
                     case "lookatroom0":
                         $("#game-text").append("<p>" + rooms.room0.lookatroom0 + "</p>");
+                        break;
+                    case "lookatwindow":
+                        $("#game-text").append("<p>" + rooms.room0.lookatwindow + "</p>");
+                        break;
+                    case "openwindow":
+                        $("#game-text").append("<p>" + rooms.room0.openwindow + "</p>");
+                        $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                        death = true;
+                        gamedeath = "a brick";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookattreasurechest":
+                        $("#game-text").append("<p>" + rooms.room0.lookattreasurechest + "</p>");
                         break;
                     case "opentreasurechest":
                         $("#game-text").append("<p>" + rooms.room0.opentreasurechest + "</p>");
                         $("#game-text").append("<p><strong>" + rooms.room0.mimicdeath + "</strong></p>");
                         death = true;
                         gamedeath = "a mimic";
-                        console.log("gamedeath ", gamedeath);
+                        console.log("gamedeath: ", gamedeath);
                         break;
-                    case "lookatdoorway":
-                        $("#game-text").append("<p>" + rooms.room0.lookatdoorwayroom1 + "</p>");
+                    case "lookatpresence":
+                        $("#game-text").append("<p>" + rooms.room0.lookatpresence + "</p>");
                         break;
-                    case "gothroughhallway":
+                    case "perceivepresence":
+                        $("#game-text").append("<p>" + rooms.room0.perceivepresence + "</p>");
+                        $("#game-text").append("<p>" + rooms.room0.presencedeath + "</p>");
+                        death = true;
+                        gamedeath = "a presence";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "waveatpresence":
+                        $("#game-text").append("<p>" + rooms.room0.waveatpresence + "</p>");
+                        $("#game-text").append("<p>" + rooms.room0.presencedeath + "</p>");
+                        death = true;
+                        gamedeath = "a presence";
+                        console.log("gamedeath: ", gamedeath);
+                    case "lookatdoors":
+                        $("#game-text").append("<p>" + rooms.room0.lookatdoors + "</p>");
+                        break;
+                    case "gotoroom1":
                         $("#game-text").append("<p>" + rooms.room1.description + "</p>");
                         roomnumber = 1;
-                        console.log("roomnumber ", roomnumber);
+                        console.log("roomnumber: ", roomnumber);
+                        break;
+                    case "gotoroom2":
+                        $("#game-text").append("<p>" + rooms.room2.description + "</p>");
+                        roomnumber = 2;
+                        console.log("roomnumber: ", roomnumber);
+                        break;
+                    case "gotoroom3":
+                        $("#game-text").append("<p>" + rooms.room3.description + "</p>");
+                        roomnumber = 3;
+                        console.log("roomnumber: ", roomnumber);
+                        break;
+                    case "gotoroom4":
+                        $("#game-text").append("<p>" + rooms.room4.description + "</p>");
+                        roomnumber = 4;
+                        console.log("roomnumber: ", roomnumber);
+                        break;
+                    case "gotoroom5":
+                        $("#game-text").append("<p>" + rooms.room5.description + "</p>");
+                        roomnumber = 5;
+                        console.log("roomnumber: ", roomnumber);
                         break;
 
                     case "twirl":
@@ -84,38 +165,151 @@ $(document).ready(function gameStart() {
                         console.log("twirls: ", twirlcounter);
                         break;
                     case "restart":
-                        // $("#game-text").append("<p>" + rooms.room0.description + "</p>");
                         break;
-                        // ^this is for the reset function. its here because the death if/else below sets it to room zero, so this is here to avoid any repeated text
                     default:
                         $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
                         break;
 
                 }
+                // room 1: Plant Room
             } else if (roomnumber === 1) {
+
                 switch (input) {
                     case "lookatroom1":
                         $("#game-text").append("<p>" + rooms.room1.lookatroom1 + "</p>");
                         break;
-                    case "lookatogre":
-                        $("#game-text").append("<p>" + rooms.room1.lookatogre + "</p>");
+                    case "lookatpottedplants":
+                        $("#game-text").append("<p>" + rooms.room1.lookatpottedplants + "</p>");
                         break;
+                    case "smellpottedplant1":
+                        if (plantspores === 1) {
+                            $("#game-text").append("<p>" + rooms.room1.spores + "</p>");
+                            $("#game-text").append("<p>" + rooms.room1.sporesdeath + "</p>");
+                            death = true;
+                            gamedeath = "spores";
+                            console.log("gamedeath: ", gamedeath);
+                            break;
+                        } else {
+                            $("#game-text").append("<p>" + rooms.room1.nospores + "</p>");
+                            break;
+                        };
+                    case "smellpottedplant2":
+                        if (plantspores === 2) {
+                            $("#game-text").append("<p>" + rooms.room1.spores + "</p>");
+                            $("#game-text").append("<p>" + rooms.room1.sporesdeath + "</p>");
+                            death = true;
+                            gamedeath = "spores";
+                            console.log("gamedeath: ", gamedeath);
+                            break;
+                        } else {
+                            $("#game-text").append("<p>" + rooms.room1.nospores + "</p>");
+                            break;
+                        };
+                    case "smellpottedplant3":
+                        if (plantspores === 3) {
+                            $("#game-text").append("<p>" + rooms.room1.spores + "</p>");
+                            $("#game-text").append("<p>" + rooms.room1.sporesdeath + "</p>");
+                            death = true;
+                            gamedeath = "spores";
+                            console.log("gamedeath: ", gamedeath);
+                            break;
+                        } else {
+                            $("#game-text").append("<p>" + rooms.room1.nospores + "</p>");
+                            break;
+                        };
                     
+
 
                     case "twirl":
                         $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
                         twirlcounter += 1;
                         console.log("twirls: ", twirlcounter);
                         break;
+                    case "restart":
+                        break;
                     default:
                         $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
                         break;
                 }
 
+                // room 2: Dragon Room
             } else if (roomnumber === 2) {
                 switch (input) {
                     case "lookatroom2":
+                        $("#game-text").append("<p>" + rooms.room2.lookatroom2 + "</p>");
+                        break;
 
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
+
+                }
+                // room 3: Wizard room
+            } else if (roomnumber === 3) {
+                switch (input) {
+                    case "lookatroom3":
+                        $("#game-text").append("<p>" + rooms.room3.lookatroom3 + "</p>");
+                        break;
+
+
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
+
+                }
+                // room 4: Wrestle room
+            } else if (roomnumber === 4) {
+                switch (input) {
+                    case "lookatroom4":
+                        $("#game-text").append("<p>" + rooms.room4.lookatroom4 + "</p>");
+                        break;
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
+
+                }
+                // room 5: Telethon room
+            } else if (roomnumber === 5) {
+                switch (input) {
+                    case "lookatroom5":
+                        $("#game-text").append("<p>" + rooms.room5.lookatroom5 + "</p>");
+                        break;
+
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
                 }
             }
 
@@ -152,8 +346,8 @@ $(document).ready(function gameStart() {
                         // location.reload();
                         break;
                         // no description of room 0 or a default case is here because adding them in would repeat text already set to room 0
-                    }
-                    
+                }
+
 
             }
         }
