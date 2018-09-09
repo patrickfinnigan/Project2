@@ -13,37 +13,56 @@ const rooms = {
         "opentreasurechest": "You open the chest, and are met with an abundance of gold... <br>...en teeth, lining the mouth of a hungry mimic. You are stunned by the noxious breath of rusting metal, and you are not quick enough to escape the maw as it swings down upon you, beheading you with a snap. That'll teach you to be greedy!",
         "mimicdeath": "YOU WERE KILLED BY A MIMIC!<br>Please type <strong>'restart'</strong> to restart the game.",
         "lookatdoors": "The doors are labeled 1 through 5. <strong>Room 1</strong> is painted green with white flowers, but the colors have long since washed out, and there are traces of flower pollen under the doorway. <strong>Room 2</strong> is made from steel, and you can practically feel the heat coming off the surface. <strong>Room 3</strong> is covered in arcane runes, streaming with multicolored waves of power, ruined slightly by the poster overlaying it, saying, 'You don't have to be crazy to program, but it helps!' You can hear the sound of a ringing bell from <strong>Room 4</strong>, behind the bedazzled and feathered funishings of the door and frame, and there seems to be a commotion from behind <strong>Room 5</strong>'s simple metal door, lableled 'Studio 5' on the front.<br>Which room would you go to? <strong>Keep in mind that you cannot head back.</strong>"
-
     },
+
+
     "room1": {
         "description": "The room is hotter and wetter than the previous, and the walls are rotting away from the constant exposure to moisture.",
-        "lookatroom1": "On one wall, there is a table with a small assortment of <strong>potted plants</strong>. On the other end, a large <strong>cactus</strong> has punctured through the ceiling in its unchecked growth. And before you, a large <strong>flytrap</strong> grows from a patch of dirt from a hole in the floor.",
+        "lookatroom1": "On one wall, there is a table with a small assortment of <strong>potted plants</strong>. On the other end, a large <strong>cactus</strong> resides by the window. And before you, a large <strong>flytrap</strong> grows from a patch of dirt from a hole in the floor.",
         "lookatpottedplants": "There are three potted plants, labeled <strong>1</strong>, <strong>2</strong>, and <strong>3</strong>. You can <strong>smell</strong> their fragrent aromas, but maybe you can take a closer look?",
         "nospores": "What a lovely smell!",
         "spores": "Upon smelling the flower, small spores flow through your nostrils and into your lungs, where they immediatly get to work. They suck up the moisture in your body, growing and spreading as a gelatinous mold. You start to gasp, choking out dust, before finally falling over dead, but not before seeing your chest concave inward, revealing a multitude of exotic grasses and sprouts emerging from your flesh, as your body turns into a very personal terrarium. At least you'll be more beautiful as a garden than you were careful as a human being...",
-        "sporesdeath" : "<strong>YOU HAVE DIED FROM SPORES!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
-        "lookatcactus": "",
-        "lookatflytrap": "",
-
-
+        "sporesdeath": "<strong>YOU HAVE DIED FROM SPORES!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
+        "lookatcactus": "You see that the cactus has punctured through the ceiling in its unchecked growth. On it's branches, you see several succulent <strong>prickly pears</strong>, and you find yourself unable to resist the idea of <strong>eating</strong> one.",
+        "eatpricklypear": "You pick a prickly pear and begin chowing down, taking in the sweet, sweet juices and the tropical body of the fruit.<br> Although apparently the term 'prickly pear' passed you by, or maybe you forgot what the hell a cactus was, because the thorns on the prickly pear that you chewed and swallowed, apparently absentmindedly, tear up the flesh of your mouth and organs, causing major internal bleeding, killing you.",
+        "pricklypeardeath": "<strong>YOU HAVE DIED OF PRICKLY PEAR!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
+        "lookatflytrap": "The flytrap opens up before you, its jawlike leaves lined with a multitude of colors. It's so tantalizing, you just want to <strong>look closer</strong> at it, probably stick your head it it even.",
+        "lookcloseratflytrap": "You take a more up-close look at the carnivorous plant, taking in the heavy scent of chlorophyll and the intriguing coloration of the plant. As you look deeper, you can practically see-<br>A brick dislodges from the ceiling, breaking your skull open and killing you instantly."
     },
+
+
     "room2": {
-        "description": "If this isn't a description of <strong>room 2</strong>, then we're in trouble",
-        "lookatroom2": "<strong>saucy lizard</strong>"
+        "description": "The room opens up into a massive cavern of old brimstone. The air is heavy with sulfer and ash.",
+        "lookatroom2": "The only thing of note that you see is a <strong>dragon</strong> in the center of the room. Around the beast, it's hoard of gold and treasure practically blinds you in it's brilliance. You can see a <strong>jewel</strong> that catches your eye, a <strong>crown</strong> that would look fantastic on you, and a massive <strong>treasure chest</strong>, sure to contain all sorts of good stuff.",
+        "lookattreasurechest": "The treasure chest glimmers with polished marble and a golden trim. The gemstones lining the trim makes the chest all that more tantalizing! You just gotta <strong>open</strong> it!",
+        "opentreasurechest": "You quickly sashay past the dragon and yank open the treasure chest!<br>...And see the gaping maw of a mimic, which gives you no time to retreat before it grabs you with it's gemstone-incrusted arms and bisects you in a single bite. ",
+        "lookatjewel": "The jewel sparkles with an infintesimal depth, it's shimmering luster reminding you of a beautiful starry night. You wonder if the dragon wouldn't mind if you <strong>take</strong> it. You figure it won't miss a single jewel, right?",
+        "takejewel": "You attempt to make a dive for the jewel, and you can practically feel the heat billowing from the dragon from across the room. As you are about to meet your fate and take the punishment for your hubris, the dragon reconsiders...<br>...That using it's flame on such a puny human would be a waste of energy, so it decides to simply pluck a discarded brick from out of the wall, and with a sniper's precision, flicks the brick at you, breaking your skull open and killing you instantly.",
+        "lookatsword": "The blade of the sword emminates with a violently powerful energy, and the orange-yellow eye in the center of the hilt seems to track you as you move around the weapon. Your head tells you to keep out of it's way, but your gut screams for you to <strong>take</strong> it...",
+        "takesword": "As you grasp the handle of the sword, ungodly powers jolt up your arm and into your very soul, swallowing your very being in an overwhelming evil. Your body, accursed to wander the earth in the possesion of an unspeakably monstorous spirit, while you are trapped behind your own eyes, forced to watch it all, before your inevitable downfall.<br>Well, at least you technically made it out when your possesed body escapes in it's carnage, so you can consider this a good ending?",
+        "possesseddeath": "<strong>YOU HAVE DIED OF POSSESSION!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
+        "lookatdragon": "Yep, that's a dragon!"
     },
+
+
     "room3": {
         "description": "If this isn't a description of <strong>room 3</strong>, then we're in trouble",
         "lookatroom3": "<strong>its mark</strong>"
     },
+
+
     "room4": {
         "description": "If this isn't a description of <strong>room 4</strong>, then we're in trouble",
         "lookatroom4": "WHOOOO THE <strong>NATURE BOY</strong> IS HERE"
     },
+
+
     "room5": {
         "description": "If this isn't a description of <strong>room 5</strong>, then we're in trouble",
         "lookatroom5": "<strong>give us money</strong>"
     },
 
+    
     "other": {
         "start": "Welcome to DemoQuest! Please enter your name to get started!",
         "dontunderstand": "I don't understand!",
@@ -217,8 +236,26 @@ $(document).ready(function gameStart() {
                             $("#game-text").append("<p>" + rooms.room1.nospores + "</p>");
                             break;
                         };
-                    
-
+                    case "lookatcactus":
+                        $("#game-text").append("<p>" + rooms.room1.lookatcactus + "</p>");
+                        break;
+                    case "eatpricklypear":
+                        $("#game-text").append("<p>" + rooms.room1.eatpricklypear + "</p>");
+                        $("#game-text").append("<p>" + rooms.room1.pricklypeardeath + "</p>");
+                        death = true;
+                        gamedeath = "prickly pear";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatflytrap":
+                        $("#game-text").append("<p>" + rooms.room1.lookatflytrap + "</p>");
+                        break;
+                    case "lookcloseratflytrap":
+                        $("#game-text").append("<p>" + rooms.room1.lookcloseratflytrap + "</p>");
+                        $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                        death = true;
+                        gamedeath = "a brick";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
 
                     case "twirl":
                         $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
@@ -237,6 +274,40 @@ $(document).ready(function gameStart() {
                 switch (input) {
                     case "lookatroom2":
                         $("#game-text").append("<p>" + rooms.room2.lookatroom2 + "</p>");
+                        break;
+                    case "lookattreasurechest":
+                        $("#game-text").append("<p>" + rooms.room2.lookattreasurechest + "</p>");
+                        break;
+                    case "opentreasurechest":
+                        $("#game-text").append("<p>" + rooms.room2.opentreasurechest + "</p>");
+                        // might as well recycle the death from room 0 lol
+                        $("#game-text").append("<p><strong>" + rooms.room0.mimicdeath + "</strong></p>");
+                        death = true;
+                        gamedeath = "a mimic";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatjewel":
+                        $("#game-text").append("<p>" + rooms.room2.lookatjewel + "</p>");
+                        break;
+                    case "takejewel":
+                        $("#game-text").append("<p>" + rooms.room2.takejewel + "</p>");
+                        $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                        death = true;
+                        gamedeath = "a brick";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatsword":
+                        $("#game-text").append("<p>" + rooms.room2.lookatsword + "</p>");
+                        break;
+                    case "takesword":
+                        $("#game-text").append("<p>" + rooms.room2.takesword + "</p>");
+                        $("#game-text").append("<p>" + rooms.room2.possesseddeath + "</p>");
+                        death = true;
+                        gamedeath = "possession";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatdragon":
+                        $("#game-text").append("<p>" + rooms.room2.lookatdragon + "</p>");
                         break;
 
 
