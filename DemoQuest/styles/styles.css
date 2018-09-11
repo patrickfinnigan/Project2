@@ -1,0 +1,62 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px 
+}
+
+h1 {
+  background-color: black;
+  color: cyan;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 70px;
+}
+
+h2 {
+  background-color: magenta;
+  color: black;
+  padding: 10px;
+  font-size:  14px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: black;
+  color: cyan;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 70px;
+  
+}
+
+/* Style the content */
+.content {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: magenta;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Press Start 2P', cursive;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
