@@ -13,7 +13,7 @@ var API = {
         "Content-Type": "application/json"
       },
       type: "POST",
-      url: "api/examples",
+      url: "api/all",
       data: JSON.stringify(example)
     });
   },
@@ -100,7 +100,9 @@ $submitBtn.on("click", handleFormSubmit);
 $exampleList.on("click", ".delete", handleDeleteBtnClick);
 
 });
+   // ------------------------------------------------------------------------------------//
 
+   
 // descriptions and actions of each room
 const rooms = {
   "room0": {

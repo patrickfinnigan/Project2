@@ -3,7 +3,10 @@ var db = require("../models");
 module.exports = function(app) {
   // Get all examples
   app.get("/api/all", function(req, res) {
-    db.Deaths.findAll({}).then(function(dbDeaths) {
+    var query = {};
+    db.Deaths.findAll({
+        where: query
+    }).then(function(dbDeaths) {
       res.json(dbDeaths);
     }).catch(function(err){
       console.log(err);
