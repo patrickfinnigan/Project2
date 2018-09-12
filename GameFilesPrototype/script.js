@@ -16,7 +16,7 @@ const rooms = {
 
         "presencedeath": "<strong>YOU WERE KILLED BY AN UNKNOWN PRESENCE!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
 
-        "lookattreasurechest": "The <strong>treasure chest</strong> is of a dark wroght iron metal, with the only hint of color being the enticing hits of gold you can see underneath the open lid.",
+        "lookattreasurechest": "The <strong>treasure chest</strong> is of a dark wrought iron metal, with the only hint of color being the enticing hits of gold you can see underneath the open lid.",
 
         "opentreasurechest": "You open the chest, and are met with an abundance of gold... <br>...en teeth, lining the mouth of a hungry mimic. You are stunned by the noxious breath of rusting metal, and you are not quick enough to escape the maw as it swings down upon you, beheading you with a snap. That'll teach you to be greedy!",
 
