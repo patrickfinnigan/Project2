@@ -78,7 +78,7 @@ const rooms = {
 
         "lookatroom3": "'Welcome, weary traveler!', you hear, as you are greeted by the great <strong>Web Wizard Markarius Calrsonophorm!</strong> 'Please, make yourself at home! Take in the many wonders that I have acquired in my times as a Web Wizard! Gaze at the magesty of my <strong>Canary</strong> browser! Take a gander at the <strong>Tensorflow</strong>, a wealth of arcane knowledge! If you excuse me, I'm currently busy with a project that I'm building with these <strong>building materials</strong> here, but feel free to <strong>call for me</strong> if you need anything!",
 
-        "calltomarkarius": "'I'm sure you'll be just fine! Don't get yourself killed, ridiculously easily!'",
+        "callformarkarius": "'I'm sure you'll be just fine! Don't get yourself killed, ridiculously easily!'",
 
         "lookatcanary": "The canary Markarius mentioned doesn't look much like a canary as much as it does a large phoenix, brimming from beak to plummage with awesome, but seemingly unsatable power. You wonder what would happen if you <strong>pet</strong> the Canary...",
 
@@ -102,7 +102,7 @@ const rooms = {
     "room4": {
         "description": "The room is massivly tall and reeks of body oder and bronser.",
 
-        "lookatroom4": " The walls are adorned with promo shots of a variety of muscular men and women, and in the center of the room sits a wrestling ring, and in the center of that wrestling ring is the titual Nature Boy Himself, <strong>Ric Flair!</strong> On one of the ring posts, you see a <strong>bell</strong> with a hammer, and leading from the ring by a rough-looking red carpet, is a stage, with a sidepart of the stage being colored differently and labled <strong>'The Deadman's Stage'</strong> by a sign above it. You feel like you're standing in a realm of mad gods.",
+        "lookatroom4": " The walls are adorned with promo shots of a variety of muscular men and women, and in the center of the room sits a wrestling ring, and in the center of that wrestling ring is the titual Nature Boy Himself, <strong>Ric Flair!</strong> On one of the ring posts, you see a <strong>bell</strong> with a hammer, and leading from the ring by a rough-looking red carpet, is a stage, with a sidepart of the stage being colored differently and labled 'The<strong> Deadman's Stage'</strong> by a sign above it. You feel like you're standing in a realm of mad gods.",
 
         "lookatricflair": "The Marvelous Nature Boy may be in his 70s, but he can still strut about the stage, popping off his signature 'Whooo!' like it was 1987 again! He doesn't seem to really notice you, but you wonder if <strong>fighting</strong> him will change things.",
 
