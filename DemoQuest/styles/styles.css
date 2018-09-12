@@ -11,6 +11,42 @@ p {
   font-size: 12px 
 }
 
+#out {
+  height: 100px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px 
+}
+
+text {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px
+}
+
+.user-input {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px
+  caret-color: magenta;
+  
+}
+.game-text {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px
+}
+
+.btn {
+  font-family: 'Press Start 2P', cursive;
+  background-color: cyan;
+  color: black;
+}
+
 h1 {
   background-color: black;
   color: cyan;
