@@ -4,10 +4,10 @@ module.exports = function(app) {
   // Get all examples
   app.get("/api/all", function(req, res) {
     var query = {};
-    db.Deaths.findAll({
+    db.Death.findAll({
         where: query
-    }).then(function(dbDeaths) {
-      res.json(dbDeaths);
+    }).then(function(dbDeath) {
+      res.json(dbDeath);
     }).catch(function(err){
       console.log(err);
     });
@@ -15,7 +15,8 @@ module.exports = function(app) {
 
   // Create a new example
   app.post("/api/new", function(req, res) {
-    db.Deaths.create(req.body).then(function(results) {
+    db.Death.create(req.body).then(function(results) {
+      console.log("results", results);
       res.json(results);
     });
   });

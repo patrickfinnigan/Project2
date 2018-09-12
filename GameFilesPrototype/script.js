@@ -500,6 +500,19 @@ $(document).ready(function gameStart() {
                 console.log("this is from the if death === true")
                 console.log("name: ", name);
                 console.log("gamedeath ", gamedeath);
+                var newVictim = {
+                    name: name
+                    .val()
+                    .trim(),
+                    death: gamedeath
+                    .val(),
+                    dateCreated: date.val()
+                };
+                function addDeath(post){
+                  $.post("/api/posts", post)
+                }
+                addDeath(newVictim);
+  
                 switch (input) {
                     case "restart":
                         console.log("-=-=-=-=-=Restart Function=-=-=-=-=-");
