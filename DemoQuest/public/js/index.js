@@ -638,11 +638,6 @@ $(document).ready(function gameStart() {
                 addDeath(newVictim);
                 console.log(newVictim);
                 
-                
-
-                
-                
-  
                 switch (input) {
                     case "restart":
                         console.log("-=-=-=-=-=Restart Function=-=-=-=-=-");

@@ -11,6 +11,57 @@ p {
   font-size: 12px 
 }
 
+#out {
+  height: 100px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px 
+}
+
+text {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px
+}
+
+.user-input {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  background-color: black;
+  color: cyan;
+  font-size: 18px;
+  padding: 5px;
+  width: 100%;
+    
+}
+.game-text {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  font-size: 12px
+}
+/* 
+input[type="text"]:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+} */
+/* input {
+  border: none;
+  background-color: transparent;
+} */
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.btn {
+  font-family: 'Press Start 2P', cursive;
+  background-color: cyan;
+  color: black;
+}
+
 h1 {
   background-color: black;
   color: cyan;
@@ -22,9 +73,23 @@ h2 {
   background-color: magenta;
   color: black;
   padding: 10px;
-  font-size:  14px;
+  font-size:  12px;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
+}
+
+h4 {
+  background-color: magenta;
+  color: black;
+  padding: 10px;
+  font-size:  12px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+strong {
+  color: cyan;
+
 }
 
 /* Style the top navigation bar */
@@ -57,6 +122,3 @@ h2 {
     bottom: 0;
     width: 100%;
 }
-
-
-

@@ -1,7 +1,6 @@
 {
   "name": "demoquest",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "directories": {
     "test": "test"
@@ -21,5 +20,7 @@
     "mysql": "^2.16.0",
     "mysql2": "^1.6.1",
     "sequelize": "^4.38.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
