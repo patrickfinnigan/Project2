@@ -605,9 +605,7 @@ $(document).ready(function gameStart() {
         }
 
     });
-
-
-
+    
 
 
 
