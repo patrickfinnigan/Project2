@@ -28,8 +28,12 @@ var API = {
       url: "api/examples/" + id,
       type: "DELETE"
     });
-  }
+  },
+  
 };
+
+
+
 
 // refreshExamples gets new examples from the db and repopulates the list
 var refreshExamples = function() {
@@ -100,6 +104,7 @@ $submitBtn.on("click", handleFormSubmit);
 $exampleList.on("click", ".delete", handleDeleteBtnClick);
 
 });
+
    // ------------------------------------------------------------------------------------//
 
    
@@ -255,6 +260,7 @@ $(document).ready(function gameStart() {
     let twirlcounter = 0;
     let gamedeath = [];
     console.log("gamedeath ", gamedeath);
+    
 
     let plantspores = Math.floor((Math.random() * 3) + 1);
     console.log("plant that will kill you: ", plantspores);
@@ -289,8 +295,21 @@ $(document).ready(function gameStart() {
                         //
 
                         //THIS IS WHERE THE TEXT FROM THE SERVER SHOULD COME IN
-
-                        //
+                        var gY = $("#game-text");
+                        getVictim();
+                        function getVictim() {
+                            $.get("/api/deathCount", graveyard);
+                          }
+                          function graveyard(data){
+                            
+                            for (var i = 0; i < data.length; i++) {
+                                
+                                $("#game-text").append("<p> Here lies " + data[i].name + ". - Cause of Death: " + data[i].causeOfDeath + ". - RIP since " + data[i].createdAt
+                                 + "</p>");
+                            }
+                          }
+                          
+                          
                         break;
                     case "openwindow":
                         $("#game-text").append("<p>" + rooms.room0.openwindow + "</p>");
@@ -606,18 +625,23 @@ $(document).ready(function gameStart() {
                 console.log("this is from the if death === true")
                 console.log("name: ", name);
                 console.log("gamedeath ", gamedeath);
+
                 var newVictim = {
-                    name: name
-                    
-                    .trim(),
+                    name: name.trim(),
                     causeOfDeath: gamedeath,
                     
-                    date: dateCreated
                 };
                 function addDeath(post){
-                  $.post("/api/posts", post)
+                    $.post("/api/newVictim", post)
                 }
+                
                 addDeath(newVictim);
+                console.log(newVictim);
+                
+                
+
+                
+                
   
                 switch (input) {
                     case "restart":
@@ -646,12 +670,6 @@ $(document).ready(function gameStart() {
         }
 
     });
-
-
-
-
-
-
 
 });
 

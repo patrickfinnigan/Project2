@@ -7,7 +7,7 @@ CREATE TABLE deaths (
 	name VARCHAR(30) NOT NULL,
     time INT NOT NULL,
     causeOfDeath VARCHAR(30) NOT NULL,
-    dateCreated DATE,
+    dateCreated DATETIME,
     
     primary key (id)
 

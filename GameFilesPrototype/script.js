@@ -509,9 +509,11 @@ $(document).ready(function gameStart() {
                     dateCreated: date.val()
                 };
                 function addDeath(post){
-                  $.post("/api/posts", post)
+                  $.post("/api/newVictim", post)
                 }
                 addDeath(newVictim);
+                console.log(newVictim);
+                
   
                 switch (input) {
                     case "restart":
