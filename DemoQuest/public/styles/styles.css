@@ -106,7 +106,8 @@ div.absolute {
   width: 100%;
   bottom: 160px;
   border: 3px solid cyan;
-  max-height: 700px;
+  max-height: 50vh;
+  overflow: scroll;
   padding: 20px;
 } 
 
