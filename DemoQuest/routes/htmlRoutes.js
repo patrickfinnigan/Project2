@@ -3,12 +3,14 @@ var db = require("../models");
 module.exports = function(app) {
   // Load index page
   app.get("/", function(req, res) {
-    db.Example.findAll({}).then(function(dbExamples) {
+    db.Death.findAll({}).then(function(dbDeath) {
       res.render("index", {
         msg: "Welcome!",
-        examples: dbExamples
+        examples: dbDeath
+      
       });
     });
+    console.log(res);
   });
 
   // Load example page and pass in an example by id
