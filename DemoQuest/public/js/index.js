@@ -256,6 +256,7 @@ $(document).ready(function() {
         let name = [];
         console.log("name: ", name);
         let death = false;
+        let deathadded = false;
         console.log("death", death);
         let twirlcounter = 0;
         let gamedeath = [];
@@ -625,18 +626,22 @@ $(document).ready(function() {
                     console.log("this is from the if death === true")
                     console.log("name: ", name);
                     console.log("gamedeath ", gamedeath);
-    
-                    var newVictim = {
-                        name: name.trim(),
-                        causeOfDeath: gamedeath,
-                        
-                    };
-                    function addDeath(post){
-                        $.post("/api/newVictim", post)
-                    }
                     
-                    addDeath(newVictim);
-                    console.log(newVictim);
+                    if ( deathadded === false ) {
+                        var newVictim = {
+                            name: name.trim(),
+                            causeOfDeath: gamedeath,
+                            
+                        };
+                        function addDeath(post){
+                            $.post("/api/newVictim", post)
+                        }
+                        
+                        addDeath(newVictim);
+                        console.log(newVictim);
+                        deathadded = true;
+                    }
+
                     
                     switch (input) {
                         case "restart":
@@ -648,6 +653,7 @@ $(document).ready(function() {
                             name = [];
                             console.log("name: ", name);
                             death = false;
+                            deathadded = false;
                             console.log("death", death);
                             gamedeath = [];
                             console.log("gamedeath ", gamedeath);
