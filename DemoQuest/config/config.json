@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "exampledb",
+    "password": "root",
+    "database": "game_top",
     "host": "localhost",
     "dialect": "mysql"
   },
