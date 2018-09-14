@@ -11,14 +11,6 @@ p {
   font-size: 12px 
 }
 
-#out {
-  height: 100px;
-  font-family: 'Press Start 2P', cursive;
-  background-color: black;
-  color: white;
-  font-size: 12px 
-}
-
 text {
   font-family: 'Press Start 2P', cursive;
   background-color: black;
@@ -108,6 +100,15 @@ strong {
   padding: 10px;
   font-size: 12px;
 }
+
+div.absolute {
+  position: absolute;
+  width: 100%;
+  bottom: 160px;
+  border: 3px solid cyan;
+  max-height: 700px;
+  padding: 20px;
+} 
 
 /* Style the footer */
 .footer {

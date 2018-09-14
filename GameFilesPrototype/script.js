@@ -620,9 +620,7 @@ $(document).ready(function gameStart() {
         }
 
     });
-
-
-
+    
 
 
 
