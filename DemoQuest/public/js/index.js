@@ -704,6 +704,7 @@ $(document).ready(function() {
                     console.log("this is from the if death === true")
                     console.log("name: ", name);
                     console.log("gamedeath ", gamedeath);
+
     
                     if (deathadded === false) {
                         var newVictim = {
@@ -716,12 +717,12 @@ $(document).ready(function() {
                             $.post("/api/newVictim", post)
                         }
     
+
                         addDeath(newVictim);
                         console.log(newVictim);
                         deathadded = true;
                     }
-    
-    
+
                     switch (input) {
                         case "restart":
                             console.log("-=-=-=-=-=Restart Function=-=-=-=-=-");
