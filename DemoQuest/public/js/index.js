@@ -127,7 +127,7 @@ $(document).ready(function() {
     
             "presencedeath": "<strong>YOU WERE KILLED BY AN UNKNOWN PRESENCE!</strong><br>Please type <strong>'restart'</strong> to restart the game.",
     
-            "lookattreasurechest": "The <strong>treasure chest</strong> is of a dark wroght iron metal, with the only hint of color being the enticing hits of gold you can see underneath the open lid.",
+            "lookattreasurechest": "The <strong>treasure chest</strong> is of a dark wrought iron metal, with the only hint of color being the enticing hits of gold you can see underneath the open lid.",
     
             "opentreasurechest": "You open the chest, and are met with an abundance of gold... <br>...en teeth, lining the mouth of a hungry mimic. You are stunned by the noxious breath of rusting metal, and you are not quick enough to escape the maw as it swings down upon you, beheading you with a snap. That'll teach you to be greedy!",
     
@@ -212,30 +212,48 @@ $(document).ready(function() {
     
         "room4": {
             "description": "The room is massivly tall and reeks of body oder and bronser.",
-            "lookatroom4": " The walls are adorned with promo shots of a variety of muscular men and women, and in the center of the room sits a wrestling ring, ",
-            "lookatricflair": "",
-            "fightricflair": "",
-            "rickflairdeath": "",
-            "lookatbell": "",
-            "ringbell": "",
-            "ironsheikdeath": "",
-            "lookatultimatestage": "",
-            "steponultimatestage": "",
+    
+            "lookatroom4": " The walls are adorned with promo shots of a variety of muscular men and women, and in the center of the room sits a wrestling ring, and in the center of that wrestling ring is the titual Nature Boy Himself, <strong>Ric Flair!</strong> On one of the ring posts, you see a <strong>bell</strong> with a hammer, and leading from the ring by a rough-looking red carpet, is a stage, with a sidepart of the stage being colored differently and labled <strong>'The Deadman's Stage'</strong> by a sign above it. You feel like you're standing in a realm of mad gods.",
+    
+            "lookatricflair": "The Marvelous Nature Boy may be in his 70s, but he can still strut about the stage, popping off his signature 'Whooo!' like it was 1987 again! He doesn't seem to really notice you, but you wonder if <strong>fighting</strong> him will change things.",
+    
+            "fightricflair": "You leap into the ring like an absolute fool and am met with the wild, primal gaze of one of the dirtiest player in the game. He lunges at you, mercelesly pummeling you to near unconciousness, before delivering a brutal knife-edge chop that breaks your neck in 3 places, sending you into a fabulous oblivion. WHat else would you expect from messing with a limousine-ridin', jet-flyin', kiss stealin', wheelin' dealin', son-of-a-gun (who kissed all the girls worldwide and made em cry)?",
+    
+            "rickflairdeath": "<strong>YOU HAVE DIED BY RIC FLAIR'S HANDS!<strong><br>Please type <strong>'restart'</strong> to restart the game.",
+    
+            "lookatbell": "The bell is slightly rust, and several dents can be seen around it's surface. But you still think it can work just fine if you <strong>ring</strong> it.",
+    
+            "ringbell": "You ring the bell, and the stage beyond the ring is illuminated with strobing lights of the colors of the Iranian flag. Before you the Iron Sheik, one of the greatest heels in WWE history! As he approaches the ring, he insults the American way and how he could have totally defeated Hulk Hogan before grabbing you by the ankles and hauling you into the ring with him. What proceeded was the most brutal match ever witnessed by man, as your miserable body was used as a bludgeoning ram and folding chair, switching between Rick and Iron Sheik before Iran's favorite son uses your now lifeless body to knock Ric Flair out enough to get the 3 count, while your discarded corpse disintegrates to ash upon contact with the ground. The Iron Sheik is not repremanded for using a bystandard as a weapon to their absolute death and even goes home with the DemoQuest International Heavyweight Belt, although he is later arrested alongside 'Hacksaw' Jim Duggan by New Jersey PD for cocaine use and possession, and was placed on one year probation.",
+    
+            "ironsheikdeath": "<strong>YOU HAVE DIED BY THE IRON SHIEKS'S HANDS!<strong><br>Please type <strong>'restart'</strong> to restart the game.",
+    
+            "lookatdeadmansstage": "The stage is heavily furnished with cobwebs and black candles, and there is an upright coffin in the center of the setup. From here, you can make out the distinct apperance of famous wrestling manager Paul Bearer standing right beside the coffin, pruning the well-known golden urn he is always seen carrying. A camera is also set up right in front of the stage. You should probably <strong>step on Deadman's Stage</strong> and see if you can meet the one, the only, Undertaker...",
+    
+            "stepondeadmansstage": "You decided to step up onto the stage and see if you can meet one of the most famous wrestlers of all time, but his pudgy manager starts making his promo to the camera, glanciong between you and the camera as he howls about 'MY UNDERTAKERRRR, MMMMMM', while also doing that weird nodding head shake that he usually does. Before he goes any further, you ask if he can calm down and if you can see the actual Undertaker...<br>'NOT MY UNDERTAKERRRRR!' he squeals like a greased piglet, as he swings his urn in front of you. As he does this, the top of the urn comes loose, letting fly the ceremonial brick buried in the ash, where it flies directly at your head, breaking your skull open and killing you instantly.",
     
         },
     
     
         "room5": {
-            "description": "If this isn't a description of <strong>room 5</strong>, then we're in trouble",
-            "lookatroom5": "<strong>give us money</strong>",
-            "lookatstage": "",
-            "performonstage": "",
-            "lookattelephone": "",
-            "answertelephone": "",
-            "skeletondeath": "",
-            "lookatcutestagehand": "",
-            "calltocutestagehand": "",
-            "stagehanddeath": "",
+            "description": "There seems to be a lot of commotion about alturism and money goin' on in this room!",
+    
+            "lookatroom5": " You scoot past what seemd to be a <strong>cute stage hand</strong> in order to get a better look at the scene. You appear to be stage left of a large television production. That's when you hear the announcment: 'Live, from DemoQuest, California, it's the <strong>DemoQuest Charity Telethon!</strong>, hosted by Golem Jerry Lewis!' 'DemoQuest may be just a school project made by three people,' Golem Jerry Lewis says to the camera, 'but that doesn't mean the good people and monsters at DemoQuest can't use your help. This telethon will be live for the next 72 hours, nonstop <strong>stage</strong> performances by top artist from front to back! All for our callers, standing by at their <strong>telephones</strong>, ready to take anything you can offer. So please,we can't stay on the airwaves without the kind donations you give us every year. Coming up next, it's Coldplay But They're Werewolves! Stay tuned!'",
+    
+            "lookatstage": "The stage is left open for someone to <strong>perform</strong>, adorend with a multitude of lights and furnsiehd with glitzy beaded curtains. There's a microphone, a few instruments, and boundless opportunity for ~talent~.",
+    
+            "performonstage": "You decide that there's nothing stopping you from becoming a star! You immediatly run up stage, push past Golem Jerry Lewis, and start belting your heart out. You don't notice that the audience are a bunch of living skeletons, but you don't care, you're more alive then you've ever been before. Everyone LOVES what you're putting out, the whole place is going nuts! One of the skeletons get's too excited, rushes the stage, and beats you over the head with a brick, breaking your skull open and killing you instantly...<br>...but the next thing you know, you burst from your own flesh, now a rockin' talkin' SKELETON! The pledges for the teleton go through the roof! Everyone goes absolutely BANANAS! You're a star kid! You're dead, yeah, but you're a star!",
+    
+            "lookattelephone": "You see an old plastic telephone, yellowed with age. You can hear it ringing, the red light flashing, but it's completely vacant. You consider being a good samaritan and <strong>answer</strong> the telephone.",
+    
+            "answertelephone": "Sitting between a kyonshī to the left and Oakland Raiders Quarterback Jim Plunkett to the right, you take your place at the pledge table and answer the phone. The next thing you know you're taking pledges at a pretty reasonable pace, scoring from a couble of bucks to talking your way up to a few grand. You're so on a roll, that you don't even hear Golem Jerry Lewis announcing the 'Hourly Operator Snack Attack', nor do you hear the clacking of the spinning wheel land on your seat number. As you're about to take down your latest pledge of $400 from a kindly old Beholder from Missouri, you are flung into the audience of skeletons, who waste no time ripping and devouring your sweet, juicy body. What can we say: That's show biz!",
+    
+            "skeletondeath": "<strong>YOU HAVE DIED BY SKELETONS!<strong><br>Please type <strong>'restart'</strong> to restart the game.",
+    
+            "lookatcutestagehand": "You turn back to see that slice of hot stuff that you just passed by. She has her back to you, but you can tell from her phisique that she's a bombshell in those Dickie's working slacks. If you can just <strong>call</strong> to the cute stage hand, probaby get a coffee after all this...?",
+    
+            "calltocutestagehand": "You call out to her, and you are surprised when she perks up at your voice over the commotion. She turns around to meet you. 'Hey, good lookin~' she says, winking at you. You feel your hear skip a beat...<br> Which is the last thing your heart does, as you peer into the gaze of the cute stage hand medusa, her strands of serpentine hair framed around her gorgeous smile being the last things you see before turning into stone. 'Aw, dang tootin'...' She huffs. 'This old country girl is gonna be a single stallion for a good long while, I reckon...'",
+    
+            "stagehanddeath": "<strong>YOU HAVE DIED BY THE MEDUSA!<strong> (totally worth it though)<br>Please type <strong>'restart'</strong> to restart the game.",
         },
     
     
@@ -256,6 +274,7 @@ $(document).ready(function() {
         let name = [];
         console.log("name: ", name);
         let death = false;
+        let deathadded = false;
         console.log("death", death);
         let twirlcounter = 0;
         let gamedeath = [];
@@ -518,107 +537,167 @@ $(document).ready(function() {
                             break;
     
                     }
-                    // room 3: Wizard room
-                } else if (roomnumber === 3) {
-                    switch (input) {
-                        case "lookatroom3":
-                            $("#game-text").append("<p>" + rooms.room3.lookatroom3 + "</p>");
-                            break;
-                        case "calltomarkarius":
-                            $("#game-text").append("<p>" + rooms.room3.calltomarkarius + "</p>");
-                            break;
-                        case "lookatcanary":
-                            $("#game-text").append("<p>" + rooms.room3.lookatcanary + "</p>");
-                            break;
-                        case "petcanary":
-                            $("#game-text").append("<p>" + rooms.room3.petcanary + "</p>");
-                            $("#game-text").append("<p>" + rooms.room3.canarydeath + "</p>");
-                            death = true;
-                            gamedeath = "canary";
-                            console.log("gamedeath: ", gamedeath);
-                            break;
-                        case "lookattensorflow":
-                            $("#game-text").append("<p>" + rooms.room3.lookattensorflow + "</p>");
-                            break;
-                        case "peerintotensorflow":
-                            $("#game-text").append("<p>" + rooms.room3.peerintotensorflow + "</p>");
-                            $("#game-text").append("<p>" + rooms.room3.tensorflowdeath + "</p>");
-                            death = true;
-                            gamedeath = "tensorflow";
-                            console.log("gamedeath: ", gamedeath);
-                            break;
-                        case "lookatbuildingmaterials":
-                            $("#game-text").append("<p>" + rooms.room3.lookatbuildingmaterials + "</p>");
-                            break;
-                        case "buildfullstackwebsite":
-                            $("#game-text").append("<p>" + rooms.room3.buildfullstackwebsite + "</p>");
-                            $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
-                            death = true;
-                            gamedeath = "a brick";
-                            console.log("gamedeath: ", gamedeath);
-                            break;
-    
-                        case "twirl":
-                            $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
-                            twirlcounter += 1;
-                            console.log("twirls: ", twirlcounter);
-                            break;
-                        case "restart":
-                            break;
-                        default:
-                            $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
-                            break;
-    
-                    }
-                    // room 4: Wrestle room
-                } else if (roomnumber === 4) {
-                    switch (input) {
-                        case "lookatroom4":
-                            $("#game-text").append("<p>" + rooms.room4.lookatroom4 + "</p>");
-                            break;
-    
-                        case "twirl":
-                            $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
-                            twirlcounter += 1;
-                            console.log("twirls: ", twirlcounter);
-                            break;
-                        case "restart":
-                            break;
-                        default:
-                            $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
-                            break;
-    
-                    }
-                    // room 5: Telethon room
-                } else if (roomnumber === 5) {
-                    switch (input) {
-                        case "lookatroom5":
-                            $("#game-text").append("<p>" + rooms.room5.lookatroom5 + "</p>");
-                            break;
-    
-    
-                        case "twirl":
-                            $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
-                            twirlcounter += 1;
-                            console.log("twirls: ", twirlcounter);
-                            break;
-                        case "restart":
-                            break;
-                        default:
-                            $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
-                            break;
-                    }
+                // room 3: Wizard room
+            } else if (roomnumber === 3) {
+                switch (input) {
+                    case "lookatroom3":
+                        $("#game-text").append("<p>" + rooms.room3.lookatroom3 + "</p>");
+                        break;
+                    case "calltomarkarius":
+                        $("#game-text").append("<p>" + rooms.room3.calltomarkarius + "</p>");
+                        break;
+                    case "lookatcanary":
+                        $("#game-text").append("<p>" + rooms.room3.lookatcanary + "</p>");
+                        break;
+                    case "petcanary":
+                        $("#game-text").append("<p>" + rooms.room3.petcanary + "</p>");
+                        $("#game-text").append("<p>" + rooms.room3.canarydeath + "</p>");
+                        death = true;
+                        gamedeath = "canary";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookattensorflow":
+                        $("#game-text").append("<p>" + rooms.room3.lookattensorflow + "</p>");
+                        break;
+                    case "peerintotensorflow":
+                        $("#game-text").append("<p>" + rooms.room3.peerintotensorflow + "</p>");
+                        $("#game-text").append("<p>" + rooms.room3.tensorflowdeath + "</p>");
+                        death = true;
+                        gamedeath = "tensorflow";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatbuildingmaterials":
+                        $("#game-text").append("<p>" + rooms.room3.lookatbuildingmaterials + "</p>");
+                        break;
+                    case "buildfullstackwebsite":
+                        $("#game-text").append("<p>" + rooms.room3.buildfullstackwebsite + "</p>");
+                        $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                        death = true;
+                        gamedeath = "a brick";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
+
                 }
-    
-                //Twirling counter
-                if (twirlcounter === 3) {
-                    $("#game-text").append("<p>" + rooms.other.twirldeath3 + "</p>");
-                    $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
-                    gamedeath = "twirling and bricks";
-                    console.log("gamedeath ", gamedeath);
-                    twirlcounter = 0;
-                    death = true;
+                // room 4: Wrestle room
+            } else if (roomnumber === 4) {
+                switch (input) {
+                    case "lookatroom4":
+                        $("#game-text").append("<p>" + rooms.room4.lookatroom4 + "</p>");
+                        break;
+                    case "lookatricflair":
+                        $("#game-text").append("<p>" + rooms.room4.lookatricflair + "</p>");
+                        break;
+                    case "fightricflair":
+                        $("#game-text").append("<p>" + rooms.room4.fightricflair + "</p>");
+                        $("#game-text").append("<p>" + rooms.room4.rickflairdeath + "</p>");
+                        death = true;
+                        gamedeath = "Ric Flair";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatbell":
+                        $("#game-text").append("<p>" + rooms.room4.lookatbell + "</p>");
+                        break;
+                    case "ringbell":
+                        $("#game-text").append("<p>" + rooms.room4.ringbell + "</p>");
+                        $("#game-text").append("<p>" + rooms.room4.ironsheikdeath + "</p>");
+                        death = true;
+                        gamedeath = "The Iron Sheik";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatdeadmansstage":
+                        $("#game-text").append("<p>" + rooms.room4.lookatdeadmansstage + "</p>");
+                        break;
+                    case "stepondeadmansstage":
+                        $("#game-text").append("<p>" + rooms.room4.stepondeadmansstage + "</p>");
+                        $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                        death = true;
+                        gamedeath = "a brick";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
+
                 }
+                // room 5: Telethon room
+            } else if (roomnumber === 5) {
+                switch (input) {
+                    case "lookatroom5":
+                        $("#game-text").append("<p>" + rooms.room5.lookatroom5 + "</p>");
+                        break;
+                    case "lookatstage":
+                        $("#game-text").append("<p>" + rooms.room5.lookatstage + "</p>");
+                        break;
+                    case "performonstage":
+                        $("#game-text").append("<p>" + rooms.room5.performonstage + "</p>");
+                        $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                        death = true;
+                        gamedeath = "a brick";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookattelephone":
+                        $("#game-text").append("<p>" + rooms.room5.lookattelephone + "</p>");
+                        break;
+                    case "answertelephone":
+                        $("#game-text").append("<p>" + rooms.room5.answertelephone + "</p>");
+                        $("#game-text").append("<p>" + rooms.room5.skeletondeath + "</p>");
+                        death = true;
+                        gamedeath = "skeletons";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+                    case "lookatcutestagehand":
+                        $("#game-text").append("<p>" + rooms.room5.lookatcutestagehand + "</p>");
+                        break;
+                    case "calltocutestagehand":
+                        $("#game-text").append("<p>" + rooms.room5.calltocutestagehand + "</p>");
+                        $("#game-text").append("<p>" + rooms.room5.stagehanddeath + "</p>");
+                        death = true;
+                        gamedeath = "medusa";
+                        console.log("gamedeath: ", gamedeath);
+                        break;
+
+
+                    case "twirl":
+                        $("#game-text").append("<p>" + rooms.other.twirl + "</p>");
+                        twirlcounter += 1;
+                        console.log("twirls: ", twirlcounter);
+                        break;
+                    case "restart":
+                        break;
+                    default:
+                        $("#game-text").append("<p>" + rooms.other.dontunderstand + "</p>");
+                        break;
+                }
+            }
+
+            //Twirling counter
+            if (twirlcounter === 3) {
+                $("#game-text").append("<p>" + rooms.other.twirldeath3 + "</p>");
+                $("#game-text").append("<p>" + rooms.other.brickdeath + "</p>");
+                gamedeath = "twirling and bricks";
+                console.log("gamedeath ", gamedeath);
+                twirlcounter = 0;
+                death = true;
+            }
     
     
                 if (death === true) {
@@ -626,18 +705,23 @@ $(document).ready(function() {
                     console.log("name: ", name);
                     console.log("gamedeath ", gamedeath);
     
-                    var newVictim = {
-                        name: name.trim(),
-                        causeOfDeath: gamedeath,
-                        
-                    };
-                    function addDeath(post){
-                        $.post("/api/newVictim", post)
+                    if (deathadded === false) {
+                        var newVictim = {
+                            name: name.trim(),
+                            causeOfDeath: gamedeath,
+    
+                        };
+    
+                        function addDeath(post) {
+                            $.post("/api/newVictim", post)
+                        }
+    
+                        addDeath(newVictim);
+                        console.log(newVictim);
+                        deathadded = true;
                     }
-                    
-                    addDeath(newVictim);
-                    console.log(newVictim);
-                    
+    
+    
                     switch (input) {
                         case "restart":
                             console.log("-=-=-=-=-=Restart Function=-=-=-=-=-");
@@ -648,6 +732,7 @@ $(document).ready(function() {
                             name = [];
                             console.log("name: ", name);
                             death = false;
+                            deathadded = false;
                             console.log("death", death);
                             gamedeath = [];
                             console.log("gamedeath ", gamedeath);
